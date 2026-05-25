@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            CanIPlaceFlowers CPF = new CanIPlaceFlowers();
+            Console.WriteLine(string.Join(", ", CPF.CanPlaceFlowers(new int[] {1,0,0,0,1}, 2)));
         }
     }
 }

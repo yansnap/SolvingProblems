@@ -2,10 +2,16 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)        
         {
-                Console.WriteLine(SimplePigLatin.PigIt("Hello world !"));
-           
+
+
+
+
+            ReversedStrings reversedStrings = new ReversedStrings();
+
+            Console.WriteLine(reversedStrings.Solution("world"));
+
         }
     }
 }
