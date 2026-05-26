@@ -5,12 +5,7 @@
         static void Main(string[] args)        
         {
 
-
-
-
-            ReversedStrings reversedStrings = new ReversedStrings();
-
-            Console.WriteLine(reversedStrings.Solution("world"));
+            Console.WriteLine(string.Join(' ', Take_the_First_N_Elements.Take(new int[] { }, 3)));
 
         }
     }
