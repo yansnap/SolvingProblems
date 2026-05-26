@@ -2,10 +2,9 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            CanIPlaceFlowers CPF = new CanIPlaceFlowers();
-            Console.WriteLine(string.Join(", ", CPF.CanPlaceFlowers(new int[] {1,0,0,0,1}, 2)));
+            Console.WriteLine(string.Join(", ", ReverseWordsInAString.ReverseWords("the sky is blue")));
         }
     }
 }
