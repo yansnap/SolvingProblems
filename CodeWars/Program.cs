@@ -5,7 +5,7 @@
         static void Main(string[] args)        
         {
 
-            Console.WriteLine(string.Join(' ', Take_the_First_N_Elements.Take(new int[] { }, 3)));
+            Console.WriteLine(string.Join(' ', Stop_gninnipS_My_sdroW.SpinWords("Hey fellow warriors")));
 
         }
     }
