@@ -5,7 +5,8 @@
         static void Main(string[] args)        
         {
 
-            Console.WriteLine(string.Join(' ', Stop_gninnipS_My_sdroW.SpinWords("Hey fellow warriors")));
+            string[] strings = new string[] { "Alex", "Jacob", "Mark", "Max" };
+            Console.WriteLine(string.Join(' ', WhoLikesIt.Likes(strings)));
 
         }
     }
