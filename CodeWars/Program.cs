@@ -4,10 +4,7 @@
     {
         static void Main(string[] args)        
         {
-
-            string[] strings = new string[] { "Alex", "Jacob", "Mark", "Max" };
-            Console.WriteLine(string.Join(' ', WhoLikesIt.Likes(strings)));
-
+            Console.WriteLine(string.Join(' ', ArrayDiff.ArrayDiffM(new int[] { 1, 2, 3 }, new int[] { 1, 2 })));
         }
     }
 }
