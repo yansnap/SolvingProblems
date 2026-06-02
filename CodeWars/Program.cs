@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)        
         {
-            Console.WriteLine(string.Join(' ', ArrayDiff.ArrayDiffM(new int[] { 1, 2, 3 }, new int[] { 1, 2 })));
+            Console.WriteLine(string.Join(' ', SumOfDigits.DigitalRoot(942)));
         }
     }
 }
